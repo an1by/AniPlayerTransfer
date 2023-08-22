@@ -1,0 +1,12 @@
+name: AniPlayerTransfer
+version: '${project.version}'
+main: ru.aniby.aniplayertransfer.AniPlayerTransfer
+api-version: '1.20'
+authors: [An1by]
+description: Transfer player data on rename with offline-mode
+website: https://aniby.ru
+
+commands:
+  transfer:
+    usage: /transfer <old_name> <new_name>
+    permission: aniby.transfer.command

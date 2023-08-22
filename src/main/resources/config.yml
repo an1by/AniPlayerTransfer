@@ -1,0 +1,11 @@
+replace_if_empty: true
+default_world: 'world'
+
+messages:
+  wrong_arguments: '&cWrong arguments!'
+  transfer:
+    success: '&aSuccess transfer data from <old_name> to <new_name>'
+    from: '&cTransferring player data from <old_name>'
+    to: '&cTransferring player data to <new_name>'
+
+debug: false
