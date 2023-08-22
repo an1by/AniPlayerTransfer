@@ -1,6 +1,13 @@
+# При отсутствии:
+# - advancements/UUID.json
+# - playerdata/UUID.dat
+# - stats/UUID.json
+# стирает соответствующие данные игрока, если они присутствуют.
 replace_if_empty: true
+# Мир, где хранятся данные игроков
 default_world: 'world'
 
+# Сообщения
 messages:
   wrong_arguments: '&cWrong arguments!'
   transfer:
@@ -8,4 +15,5 @@ messages:
     from: '&cTransferring player data from <old_name>'
     to: '&cTransferring player data to <new_name>'
 
+# Режим дебаггинга. Увидите больше информации
 debug: false
